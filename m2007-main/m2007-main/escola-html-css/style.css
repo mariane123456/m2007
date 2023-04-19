@@ -1,6 +1,6 @@
-*{
+* {
     margin: 0;
-    paddimg: 0;
+    padding: 0;
 
 }
 .cabecalho{
@@ -11,7 +11,19 @@
     align-items: center;
     padding: 12px 0;
 }
-
 .cabecalho-imagem{
     width: 05%;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin:0 16px;
+    font-size: 20px;
+}
+
+.cabecalho-lista-item a {
+    text-decoration: none;
+    color:white;
+}
+.escola-imagem{
+    width:25%;
 }
